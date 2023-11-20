@@ -44,7 +44,10 @@ const ProjectListFull = () => {
             aria-label="Search by name, description, and language"
             placeholder="Search by name, description, and language"
           />
-          <InputRightElement children={<SearchIcon color="gray.500" />} />
+          {/*<InputRightElement children={<SearchIcon color="gray.500" />} />*/}
+          <InputRightElement>
+            <SearchIcon color="gray.500"/>
+          </InputRightElement>
         </InputGroup>
         <SimpleGrid minChildWidth="300px" spacing="40px">
           {[...Array(10)].map((_, i) => (
@@ -77,7 +80,10 @@ const ProjectListFull = () => {
           onChange={(e) => setSearchValue(e.target.value)}
           placeholder="Search by name, description, and language"
         />
-        <InputRightElement children={<SearchIcon color="gray.500" />} />
+        {/*<InputRightElement children={<SearchIcon color="gray.500" />} /> */}
+        <InputRightElement>
+          <SearchIcon color="gray.500"/>
+        </InputRightElement>
       </InputGroup>
       <SimpleGrid minChildWidth="300px" spacing="40px">
         {!filteredProjects.length && (

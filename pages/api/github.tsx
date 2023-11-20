@@ -1,4 +1,4 @@
-export default async (req, res) => {
+const get_projects = async (req, res) => {
     const url = "https://api.github.com/users/navidali/repos?per_page=100"
     const response = await fetch(url)
     const json = await response.json()
@@ -24,3 +24,4 @@ export default async (req, res) => {
     })
 }
 
+export default get_projects;
