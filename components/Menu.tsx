@@ -61,6 +61,12 @@ const MenuHamburguer = () => {
                 Projects
               </NextLink>
             </MenuItem>
+            <MenuItem>
+              {" "}
+              <NextLink href="/images/Navid_Ali_Resume.pdf" passHref>
+                Resume
+              </NextLink>
+            </MenuItem>
           </MenuList>
         </Menu>
       </Box>

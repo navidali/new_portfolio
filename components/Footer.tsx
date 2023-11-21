@@ -52,7 +52,7 @@ const Footer = () => (
         _hover={{ background: "none" }}
         aria-label="Github Repo"
         rel="noopener"
-        href="https://github.com/navidali/portfolio"
+        href="https://github.com/navidali/new_portfolio"
         isExternal
         icon={<FaGithub fontSize="18px" />}
       />

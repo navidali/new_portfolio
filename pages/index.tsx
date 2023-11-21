@@ -106,7 +106,7 @@ export default function Home() {
                 title="Portfolio"
                 description="This is a fully responsive website, developed using Next.js, React, and ChakraUI, featuring dynamic load animations. It’s SEO-optimized and integrates projects directly from GitHub via its API."
                 repoHref="https://github.com/navidali/portfolio"
-                demoHref="https://portfolio-navidali.vercel.app/"
+                demoHref="https://navidali.vercel.app/"
                 languageColor="#2b7489"
                 language="TypeScript"
                 starCount={0}
