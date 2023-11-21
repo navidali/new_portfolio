@@ -18,6 +18,10 @@ const MenuHamburguer = () => {
     light: "white",
     dark: "light",
   };
+  const menuIconColor = {
+    light: "white",
+    dark: "dark"
+  };
 
   const router = useRouter();
 
@@ -45,10 +49,10 @@ const MenuHamburguer = () => {
             aria-label="Options"
             icon={<HamburgerIcon />}
             variant="outline"
-            _expanded={{ bg: textColor[colorMode] }}
+            _expanded={{ bg: menuIconColor[colorMode] }}
             _focus={{ boxShadow: "outline" }}
           />
-          <MenuList>
+          <MenuList color={iconColor[colorMode]}>
             <MenuItem>
               {" "}
               <NextLink href="/" passHref>
